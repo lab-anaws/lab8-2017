@@ -1,0 +1,554 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "name": "6br-topology",
+    "project_id": "f86f8238-2129-40cd-ab92-2c325fbc7a57",
+    "revision": 7,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "fe3d1f2f-49fb-4d64-a6de-36338544c080",
+                "rotation": 0,
+                "svg": "<svg height=\"257\" width=\"360\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"257\" stroke=\"#000000\" stroke-width=\"2\" width=\"360\" /></svg>",
+                "x": -234,
+                "y": -141,
+                "z": 0
+            },
+            {
+                "drawing_id": "06eba886-2d4f-4b75-877d-44f29e7db3fb",
+                "rotation": 0,
+                "svg": "<svg height=\"23\" width=\"172\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Customer2 - IPv6 Only</text></svg>",
+                "x": -482,
+                "y": 212,
+                "z": 1
+            },
+            {
+                "drawing_id": "d72f3033-7ebb-485b-b850-42992290803f",
+                "rotation": 0,
+                "svg": "<svg height=\"23\" width=\"172\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Customer1 - IPv6 Only</text></svg>",
+                "x": -491,
+                "y": -66,
+                "z": 1
+            },
+            {
+                "drawing_id": "5a6509c9-2b83-48c6-83d4-9c2276cf21da",
+                "rotation": 0,
+                "svg": "<svg height=\"23\" width=\"192\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">ISP Backbone - IPv4 Only</text></svg>",
+                "x": -114,
+                "y": 82,
+                "z": 1
+            },
+            {
+                "drawing_id": "b56a841c-0157-4911-bfcf-e5e8b45eaa9d",
+                "rotation": 0,
+                "svg": "<svg height=\"185\" width=\"315\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"185\" stroke=\"#000000\" stroke-width=\"2\" width=\"315\" /></svg>",
+                "x": -507,
+                "y": -225,
+                "z": 0
+            },
+            {
+                "drawing_id": "b7897165-64bb-4397-a93a-06066ebefbf9",
+                "rotation": 0,
+                "svg": "<svg height=\"211.0\" width=\"297.0\"><ellipse cx=\"148\" cy=\"105\" fill=\"#ffffff\" fill-opacity=\"1.0\" rx=\"149\" ry=\"106\" stroke=\"#000000\" stroke-width=\"2\" /></svg>",
+                "x": 112,
+                "y": -147,
+                "z": 0
+            },
+            {
+                "drawing_id": "d6c97bd1-145f-485b-8e3f-3deb33ab19c5",
+                "rotation": 0,
+                "svg": "<svg height=\"209\" width=\"326\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"209\" stroke=\"#000000\" stroke-width=\"2\" width=\"326\" /></svg>",
+                "x": -504,
+                "y": 25,
+                "z": 0
+            },
+            {
+                "drawing_id": "c5dda66f-b692-4309-bd06-4873e21cdbee",
+                "rotation": 0,
+                "svg": "<svg height=\"23\" width=\"104\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">IPv6 Internet</text></svg>",
+                "x": 217,
+                "y": 24,
+                "z": 1
+            }
+        ],
+        "links": [
+            {
+                "link_id": "9570cc73-8142-48cf-8987-1d321926d45a",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": 68,
+                            "y": 39
+                        },
+                        "node_id": "0f55a39d-d1fc-42be-90a9-bf5beb648b52",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 0,
+                            "y": -1
+                        },
+                        "node_id": "9367a85a-b06a-4098-886f-f04df2eed18a",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "be9c5e28-76fe-4833-8b56-be7de5cf7ead",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": -7,
+                            "y": 31
+                        },
+                        "node_id": "1056d2a3-8059-489e-9b73-5e89e0cc4422",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/1",
+                            "x": 72,
+                            "y": 20
+                        },
+                        "node_id": "632649d5-8d46-4afa-a18d-fa469fb5fdde",
+                        "port_number": 1
+                    }
+                ]
+            },
+            {
+                "link_id": "6d41f3d7-66ce-4a60-88aa-23d26323a390",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": 66,
+                            "y": 9
+                        },
+                        "node_id": "ffe30d22-929b-44b7-8c76-78291cdf9df5",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/1",
+                            "x": -1,
+                            "y": 42
+                        },
+                        "node_id": "f7d96c91-c246-492c-a7b6-5ad67b98c4fc",
+                        "port_number": 1
+                    }
+                ]
+            },
+            {
+                "link_id": "180ad0cf-a7aa-4813-a201-3dc79938dc95",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": 68,
+                            "y": 4
+                        },
+                        "node_id": "f7d96c91-c246-492c-a7b6-5ad67b98c4fc",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e1",
+                            "x": 0,
+                            "y": 33
+                        },
+                        "node_id": "9367a85a-b06a-4098-886f-f04df2eed18a",
+                        "port_number": 1
+                    }
+                ]
+            },
+            {
+                "link_id": "0ac401c1-f734-49d8-b4b1-0009c356c2bb",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": 72,
+                            "y": 35
+                        },
+                        "node_id": "898c6c59-c6dc-42c7-bf41-dc804c7c6e64",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/1",
+                            "x": -6,
+                            "y": 16
+                        },
+                        "node_id": "0f55a39d-d1fc-42be-90a9-bf5beb648b52",
+                        "port_number": 1
+                    }
+                ]
+            },
+            {
+                "link_id": "739ac654-b9e1-45a6-a9f7-e6f13c671a88",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": -6,
+                            "y": 29
+                        },
+                        "node_id": "632649d5-8d46-4afa-a18d-fa469fb5fdde",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e2",
+                            "x": 74,
+                            "y": 8
+                        },
+                        "node_id": "9367a85a-b06a-4098-886f-f04df2eed18a",
+                        "port_number": 2
+                    }
+                ]
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": 5008,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R1",
+                    "x": 19,
+                    "y": -25
+                },
+                "name": "R1",
+                "node_id": "0f55a39d-d1fc-42be-90a9-bf5beb648b52",
+                "node_type": "iou",
+                "port_name_format": "Ethernet{segment0}/{port0}",
+                "port_segment_size": 4,
+                "properties": {
+                    "ethernet_adapters": 1,
+                    "l1_keepalives": false,
+                    "md5sum": "45e99761a95cbd3ee3924ecf0f3d89e5",
+                    "nvram": 128,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.5.2T.bin",
+                    "private_config": null,
+                    "private_config_content": null,
+                    "ram": 256,
+                    "serial_adapters": 1,
+                    "startup_config": "startup-config.cfg",
+                    "startup_config_content": "\n!\n! Last configuration change at 14:56:02 CET Thu Nov 9 2017\n!\nversion 15.5\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R1\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\n!\n!\n!\nbsd-client server url https://cloudsso.cisco.com/as/token.oauth2\nclock timezone CET 1 0\nmmi polling-interval 60\nno mmi auto-configure\nno mmi pvc\nmmi snmp-timeout 180\n!\n!\n!\n!\n!\nno ip icmp rate-limit unreachable\n!\n!\n!\n!\n!\n!\n!\n!\n\n\n!\n!\n!\n!\nno ip domain lookup\nip cef\nipv6 general-prefix 6RD-PREFIX 6rd Tunnel0\nipv6 unicast-routing\nipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\ncts logging verbose\n!\n!\n!\nredundancy\n!\nno cdp log mismatch duplex\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface Tunnel0\n no ip address\n no ip redirects\n ipv6 enable\n tunnel source Ethernet0/0\n tunnel mode ipv6ip 6rd\n tunnel 6rd ipv4 prefix-len 16 suffix-len 8\n tunnel 6rd prefix 2001:DEAD::/32\n tunnel 6rd br 10.1.4.1\n!\ninterface Ethernet0/0\n ip address 10.1.1.1 255.255.0.0\n ipv6 enable\n!\ninterface Ethernet0/1\n no ip address\n ipv6 address 2001:DEAD:100::1/64\n ipv6 enable\n!\ninterface Ethernet0/2\n no ip address\n shutdown\n!\ninterface Ethernet0/3\n no ip address\n shutdown\n!\ninterface Serial1/0\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/1\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/2\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/3\n no ip address\n shutdown\n serial restart-delay 0\n!\nip forward-protocol nd\n!\n!\nno ip http server\nno ip http secure-server\n!\nipv6 route ::/0 Tunnel0 2001:DEAD:400::1\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\nline vty 0 4\n login\n transport input none\n!\n!\nend\n",
+                    "use_default_iou_values": true
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": -280,
+                "y": -127,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5011,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R2",
+                    "x": 19,
+                    "y": -25
+                },
+                "name": "R2",
+                "node_id": "f7d96c91-c246-492c-a7b6-5ad67b98c4fc",
+                "node_type": "iou",
+                "port_name_format": "Ethernet{segment0}/{port0}",
+                "port_segment_size": 4,
+                "properties": {
+                    "ethernet_adapters": 1,
+                    "l1_keepalives": false,
+                    "md5sum": "45e99761a95cbd3ee3924ecf0f3d89e5",
+                    "nvram": 128,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.5.2T.bin",
+                    "private_config": null,
+                    "private_config_content": null,
+                    "ram": 256,
+                    "serial_adapters": 1,
+                    "startup_config": "startup-config.cfg",
+                    "startup_config_content": "\n!\n! Last configuration change at 15:26:32 CET Thu Nov 9 2017\n!\nversion 15.5\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R2\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\n!\n!\n!\nbsd-client server url https://cloudsso.cisco.com/as/token.oauth2\nclock timezone CET 1 0\nmmi polling-interval 60\nno mmi auto-configure\nno mmi pvc\nmmi snmp-timeout 180\n!\n!\n!\n!\n!\nno ip icmp rate-limit unreachable\n!\n!\n!\n!\n!\n!\n!\n!\n\n\n!\n!\n!\n!\nno ip domain lookup\nip cef\nipv6 general-prefix 6RD-PREFIX 6rd Tunnel0\nipv6 unicast-routing\nipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\ncts logging verbose\n!\n!\n!\nredundancy\n!\nno cdp log mismatch duplex\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface Tunnel0\n no ip address\n no ip redirects\n ipv6 enable\n tunnel source Ethernet0/0\n tunnel mode ipv6ip 6rd\n tunnel 6rd ipv4 prefix-len 16 suffix-len 8\n tunnel 6rd prefix 2001:DEAD::/32\n tunnel 6rd br 10.1.4.1\n!\ninterface Ethernet0/0\n ip address 10.1.2.1 255.255.0.0\n ipv6 enable\n!\ninterface Ethernet0/1\n no ip address\n ipv6 address 2001:DEAD:200::1/64\n ipv6 enable\n!\ninterface Ethernet0/2\n no ip address\n shutdown\n!\ninterface Ethernet0/3\n no ip address\n shutdown\n!\ninterface Serial1/0\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/1\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/2\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/3\n no ip address\n shutdown\n serial restart-delay 0\n!\nip forward-protocol nd\n!\n!\nno ip http server\nno ip http secure-server\n!\nipv6 route ::/0 Tunnel0 2001:DEAD:400::1\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\nline vty 0 4\n login\n transport input none\n!\n!\nend\n",
+                    "use_default_iou_values": true
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": -288,
+                "y": 65,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5009,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "ipterm-3",
+                    "x": -3,
+                    "y": -25
+                },
+                "name": "ipterm-3",
+                "node_id": "1056d2a3-8059-489e-9b73-5e89e0cc4422",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 1,
+                    "aux": 5010,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "5c2a2627fc337360c9189beea19c384eb89947a61c353cfe52b7ea7464623cd1",
+                    "environment": "",
+                    "image": "gns3/ipterm:latest",
+                    "start_command": null
+                },
+                "symbol": "linux_guest.svg",
+                "width": 65,
+                "x": 323,
+                "y": -80,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_type": null,
+                "first_port_name": null,
+                "height": 32,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "SW1",
+                    "x": 15,
+                    "y": -25
+                },
+                "name": "SW1",
+                "node_id": "9367a85a-b06a-4098-886f-f04df2eed18a",
+                "node_type": "ethernet_switch",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "ports_mapping": [
+                        {
+                            "name": "Ethernet0",
+                            "port_number": 0,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet1",
+                            "port_number": 1,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet2",
+                            "port_number": 2,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet3",
+                            "port_number": 3,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet4",
+                            "port_number": 4,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet5",
+                            "port_number": 5,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet6",
+                            "port_number": 6,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet7",
+                            "port_number": 7,
+                            "type": "access",
+                            "vlan": 1
+                        }
+                    ]
+                },
+                "symbol": ":/symbols/ethernet_switch.svg",
+                "width": 72,
+                "x": -83,
+                "y": -22,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5012,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R3",
+                    "x": 19,
+                    "y": -25
+                },
+                "name": "R3",
+                "node_id": "632649d5-8d46-4afa-a18d-fa469fb5fdde",
+                "node_type": "iou",
+                "port_name_format": "Ethernet{segment0}/{port0}",
+                "port_segment_size": 4,
+                "properties": {
+                    "ethernet_adapters": 1,
+                    "l1_keepalives": false,
+                    "md5sum": "45e99761a95cbd3ee3924ecf0f3d89e5",
+                    "nvram": 128,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.5.2T.bin",
+                    "private_config": null,
+                    "private_config_content": null,
+                    "ram": 256,
+                    "serial_adapters": 1,
+                    "startup_config": "startup-config.cfg",
+                    "startup_config_content": "\n!\n! Last configuration change at 14:29:28 CET Thu Nov 9 2017\n!\nversion 15.5\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R3\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\nno aaa new-model\n!\n!\n!\nbsd-client server url https://cloudsso.cisco.com/as/token.oauth2\nclock timezone CET 1 0\nmmi polling-interval 60\nno mmi auto-configure\nno mmi pvc\nmmi snmp-timeout 180\n!\n!\n!\n!\n!\nno ip icmp rate-limit unreachable\n!\n!\n!\n!\n!\n!\n!\n!\n\n\n!\n!\n!\n!\nno ip domain lookup\nip cef\nipv6 general-prefix 6RD-PREFIX 6rd Tunnel0\nipv6 unicast-routing\nipv6 cef\n!\nmultilink bundle-name authenticated\n!\n!\n!\n!\n!\n!\n!\ncts logging verbose\n!\n!\n!\nredundancy\n!\nno cdp log mismatch duplex\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface Tunnel0\n no ip address\n no ip redirects\n ipv6 address 6RD-PREFIX ::/128 anycast\n ipv6 enable\n tunnel source Ethernet0/0\n tunnel mode ipv6ip 6rd\n tunnel 6rd ipv4 prefix-len 16 suffix-len 8\n tunnel 6rd prefix 2001:DEAD::/32\n!\ninterface Ethernet0/0\n ip address 10.1.4.1 255.255.0.0\n ipv6 enable\n!\ninterface Ethernet0/1\n no ip address\n ipv6 address AAAA::1/64\n ipv6 enable\n!\ninterface Ethernet0/2\n no ip address\n shutdown\n!\ninterface Ethernet0/3\n no ip address\n shutdown\n!\ninterface Serial1/0\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/1\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/2\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/3\n no ip address\n shutdown\n serial restart-delay 0\n!\nip forward-protocol nd\n!\n!\nno ip http server\nno ip http secure-server\n!\nipv6 route 2001:DEAD::/32 Tunnel0\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\nline vty 0 4\n login\n transport input none\n!\n!\nend\n",
+                    "use_default_iou_values": true
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": 73,
+                "y": -64,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5001,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "ipterm-1",
+                    "x": -3,
+                    "y": -25
+                },
+                "name": "ipterm-1",
+                "node_id": "898c6c59-c6dc-42c7-bf41-dc804c7c6e64",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 1,
+                    "aux": 5002,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "c8c4c0d907d6e55fc8ffdd256e36a9fe9a6d4eb433e7918f8361335729a97925",
+                    "environment": null,
+                    "image": "gns3/ipterm:latest",
+                    "start_command": null
+                },
+                "symbol": "linux_guest.svg",
+                "width": 65,
+                "x": -434,
+                "y": -171,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5013,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "ipterm-2",
+                    "x": -3,
+                    "y": -25
+                },
+                "name": "ipterm-2",
+                "node_id": "ffe30d22-929b-44b7-8c76-78291cdf9df5",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 1,
+                    "aux": 5014,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "121ccf85c6ee45c498fb5e22ace8d054bcc78eceb97212e24ba1ad98a234bfd6",
+                    "environment": "",
+                    "image": "gns3/ipterm:latest",
+                    "start_command": null
+                },
+                "symbol": "linux_guest.svg",
+                "width": 65,
+                "x": -399,
+                "y": 135,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "2.0.3"
+}
